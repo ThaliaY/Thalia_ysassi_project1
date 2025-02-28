@@ -1,8 +1,8 @@
-main: Thalia_Ysassi_Project1.o
-	g++ Thalia_Ysassi_Project1.o -o main
+main: thalia_ysassi_project1.o
+	g++ thalia_ysassi_project1.o -o main
 
-Thalia_Ysassi_Project1.o: Thalia_Ysassi_Project1.cpp
-	g++ -c Thalia_Ysassi_Project1.cpp
+thalia.ysassi-project1.o: thalia_ysassi_project1.cpp
+	g++ -c thalia_ysassi_project1.cpp
 
 clean:
 	rm *.o main
